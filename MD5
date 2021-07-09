@@ -1,7 +1,7 @@
-d524a44c83c1021169ad87159af6b128 *DESCRIPTION
+93da6bc32cda1f92d2ef062decc6e279 *DESCRIPTION
 ddb26ccffe7d5320551d7b4f77424bf8 *LICENSE
 78239948418a4279c28d631641250b32 *NAMESPACE
-aab31b82aab88ae22d9f0630dd2e0867 *NEWS.md
+aded5085ed5ca8a30bc6cd2bb3e0d3ee *NEWS.md
 8bc6f17cb50a403e92b2a484b3f2b2c7 *R/archive.R
 6f48c0ae25ff9bed4e41058c66713c26 *R/archive_extract.R
 dc555514005a3a76813cad5039f10be1 *R/archive_read.R
@@ -13,8 +13,8 @@ dc555514005a3a76813cad5039f10be1 *R/archive_read.R
 0a8841d7c7ccacda669504bc2f0069da *R/file_write.R
 6784306d480b16705a887dec46485161 *R/utils.R
 3b0a21911dab80a9789442cb03e2fd39 *R/zzz.R
-e87c1d814b53d1fe77a964be7d6ec4be *README.md
-aa4901ff5078eaa977acdf0d41790a39 *build/archive.pdf
+ced53f2f5cdaccf1935672d41458fbd8 *README.md
+9fb031fd993b77cfee11c25dc31b130c *build/archive.pdf
 ba3caf48933f8c648233c7cf67566f2f *cleanup
 0a3052876800de02b0c6124aaa68ebb8 *configure
 d41d8cd98f00b204e9800998ecf8427e *configure.win
