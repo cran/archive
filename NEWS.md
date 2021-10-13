@@ -1,3 +1,11 @@
+# archive 1.1.1
+
+* `archive_extract()` now returns the extracted files (invisibly) (#50)
+
+* `archive_extract()`, `archive_write_files()` and `archive_write_dir()` gain progress bars using the cli package (#49)
+
+* Remove uses of deprecated function `glue::collapse()`.
+
 # archive 1.1.0
 
 * `archive_extract()` gains a `strip_components` argument to strip leading pathname components if desired (#27)

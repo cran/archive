@@ -5,7 +5,7 @@ Description: Bindings to 'libarchive' <http://www.libarchive.org> the
   extraction for many archive formats including 'tar', 'ZIP', '7-zip', 'RAR',
   'CAB' and compression formats including 'gzip', 'bzip2', 'compress', 'lzma'
   and 'xz'.
-Version: 1.1.0
+Version: 1.1.1
 Authors@R: 
     c(person(given = "Jim",
              family = "Hester",
@@ -19,23 +19,23 @@ Authors@R:
         person(given = "RStudio",
           role = c("cph", "fnd")))
 Depends: R (>= 3.1.0)
-Imports: tibble, glue, rlang
+Imports: cli, glue, tibble, rlang
 Suggests: testthat, covr
 License: MIT + file LICENSE
 Encoding: UTF-8
-LinkingTo: cpp11
-RoxygenNote: 7.1.1
+LinkingTo: cli, cpp11
+RoxygenNote: 7.1.2
 SystemRequirements: C++11, libarchive: libarchive-dev (deb),
         libarchive-devel (rpm), libarchive (homebrew), libarchive_dev
         (csw)
-URL: http://archive.r-lib.org/, https://github.com/r-lib/archive
+URL: https://archive.r-lib.org/, https://github.com/r-lib/archive
 ByteCompile: true
 BugReports: https://github.com/r-lib/archive/issues
 NeedsCompilation: yes
-Packaged: 2021-08-04 17:08:40 UTC; jhester
+Packaged: 2021-10-13 20:02:08 UTC; jhester
 Author: Jim Hester [aut, cre] (<https://orcid.org/0000-0002-2739-7082>),
   Ondrej Holy [cph] (archive_write_add_filter implementation),
   RStudio [cph, fnd]
 Maintainer: Jim Hester <jim.hester@rstudio.com>
 Repository: CRAN
-Date/Publication: 2021-08-05 01:00:02 UTC
+Date/Publication: 2021-10-13 20:10:08 UTC

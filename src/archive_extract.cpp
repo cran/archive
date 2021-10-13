@@ -1,6 +1,17 @@
 #include "r_archive.h"
+#include <cli/progress.h>
 
-static int copy_data(struct archive* ar, struct archive* aw) {
+const char* const pb_format =
+    "{cli::pb_spin} %zu extracted | {cli::pb_current_bytes} "
+    "({cli::pb_rate_bytes}) | "
+    "{cli::pb_elapsed}";
+
+static int copy_data(
+    struct archive* ar,
+    struct archive* aw,
+    SEXP progress_bar,
+    size_t& total_read,
+    size_t num_extracted) {
   int r;
   const void* buff;
   size_t size;
@@ -11,6 +22,14 @@ static int copy_data(struct archive* ar, struct archive* aw) {
     if (r == ARCHIVE_EOF) {
       return (ARCHIVE_OK);
     }
+    total_read += size;
+
+    if (CLI_SHOULD_TICK) {
+      cli_progress_set_format(progress_bar, pb_format, num_extracted);
+
+      cli_progress_set(progress_bar, total_read);
+    }
+
     call(archive_write_data_block, aw, buff, size, offset);
   }
 }
@@ -74,7 +93,7 @@ static const char* strip_components(const char* p, int elements) {
   }
 }
 
-[[cpp11::register]] void archive_extract_(
+[[cpp11::register]] cpp11::strings archive_extract_(
     const cpp11::sexp& connection,
     cpp11::sexp file,
     int num_strip_components,
@@ -133,6 +152,16 @@ static const char* strip_components(const char* p, int elements) {
     file_names = cpp11::as_cpp<std::vector<std::string>>(file);
   }
 
+  using namespace cpp11::literals;
+
+  cpp11::sexp progress_bar(cli_progress_bar(NA_REAL, R_NilValue));
+
+  size_t total_read = 0;
+
+  size_t num_extracted = 0;
+
+  cpp11::writable::strings extracted_files;
+
   for (R_xlen_t index = 1;; ++index) {
     res = call(archive_read_next_header, a, &entry);
     if (res == ARCHIVE_EOF) {
@@ -145,21 +174,31 @@ static const char* strip_components(const char* p, int elements) {
       if (filename == nullptr) {
         continue;
       }
-      if (filename != original_filename) {
-        archive_entry_copy_pathname(entry, filename);
-      }
     }
 
     if (file == R_NilValue ||
         (!file_indexes.empty() && any_matches(index, file_indexes)) ||
         (!file_names.empty() && any_matches(filename, file_names))) {
+      extracted_files.push_back(filename);
+
+      if (filename != original_filename) {
+        archive_entry_copy_pathname(entry, filename);
+      }
+
       call(archive_write_header, ext, entry);
-      copy_data(a, ext);
+      copy_data(a, ext, progress_bar, total_read, num_extracted);
       call(archive_write_finish_entry, ext);
+
+      ++num_extracted;
     }
   }
+
+  cli_progress_done(progress_bar);
+
   call(archive_read_close, a);
   call(archive_read_free, a);
   call(archive_write_close, ext);
   call(archive_write_free, ext);
+
+  return extracted_files;
 }
