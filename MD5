@@ -1,8 +1,8 @@
-99235a3f03159013fc641d5f8cf32079 *DESCRIPTION
+3ce35b86468180c677947dbc44fac3e1 *DESCRIPTION
 ddb26ccffe7d5320551d7b4f77424bf8 *LICENSE
-a16f973a1b8e77d4a43405c6dcabf493 *NAMESPACE
-a6573f1a35bb1213137230016c64b779 *NEWS.md
-966f62032b174c611e2b8130edcbe5e4 *R/archive.R
+2e14e20870d345785b5f651f039bf885 *NAMESPACE
+a460784ef5d9120a4e782b833d5d062f *NEWS.md
+b52cc6512b9d2cdef614bd55cf55df5c *R/archive.R
 1995d80d4fe88eba897150dd41aa7c91 *R/archive_extract.R
 7cf99717dd2bd9508f682eaaaaa7f6f2 *R/archive_read.R
 816906c1a5434d540293c2f0610a3957 *R/archive_write.R
@@ -12,9 +12,9 @@ d59780112a00d4df675ff3ba1e4bcac4 *R/cpp11.R
 8142e940e9b27015d2791e9d27405e15 *R/file_read.R
 0a8841d7c7ccacda669504bc2f0069da *R/file_write.R
 6f0aee51fd4ed79c2607847fc81b0951 *R/utils.R
-01f6fd074986a68c4625ddc1622b80f1 *R/zzz.R
-d06f561a024c4812ded8db4383a0e075 *README.md
-16a36e1c5edb3c8244a8725010dd6d45 *build/archive.pdf
+49e0e0049b7136a040a696dd6f3a2ff2 *R/zzz.R
+360d5fb122347b28088405931e13b81a *README.md
+67d75d2a49917cf400acff34e8c8550e *build/archive.pdf
 ba3caf48933f8c648233c7cf67566f2f *cleanup
 0a3052876800de02b0c6124aaa68ebb8 *configure
 d41d8cd98f00b204e9800998ecf8427e *configure.win
@@ -34,7 +34,7 @@ ea6a14dba54e952101f11dea5a8387af *src/archive_extract.cpp
 6a750f61b0e15d597046f3a92f85cf3f *src/archive_read.cpp
 2b10929f506af704ee5956e5234afd88 *src/archive_write.cpp
 bf08e6693008e0b9839def49ddbee98b *src/archive_write_direct.cpp
-28b69b250ac15a85afb109f21cd0d0b9 *src/archive_write_files.cpp
+d80af94e87952bf4d183291aa7382f3f *src/archive_write_files.cpp
 f5b91f785c18470d9989c6eda653f8d5 *src/connection/connection.c
 59067fd9695ae7e1ae0e91c11a144f6c *src/connection/connection.h
 562918343b534c3afe02cc9e2f802f6c *src/cpp11.cpp

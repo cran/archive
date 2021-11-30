@@ -1,6 +1,12 @@
+# archive 1.1.3
+
+* Gábor Csárdi is now the maintainer.
+
 # archive 1.1.2
 
 * Fix UBSAN error related to the progress bar initialization (#55)
+
+* Fix unterminated progress bars in `archive_write()` and friends (#60, @salim-b)
 
 # archive 1.1.1
 
