@@ -16,7 +16,7 @@ NULL
 #' @seealso [archive_read()], [archive_write()] to read and write archive files
 #' using R connections, [archive_extract()], [archive_write_files()],
 #' [archive_write_dir()] to add or extract files from an archive.
-#' @returns @return A [tibble][tibble::tibble-package] with details about files in the archive.
+#' @return A [tibble][tibble::tibble-package] with details about files in the archive.
 #' @examples
 #' a <- archive(system.file(package = "archive", "extdata", "data.zip"))
 #' a
@@ -156,4 +156,13 @@ libarchive_libzstd_version <- function() {
     return(package_version(version))
   }
   package_version("0.0.0")
+}
+
+print_versions <- function(){
+  cat("Linked to:\n")
+  cat("libarchive", as.character(libarchive_version()), '\n')
+  cat("zlib", as.character(libarchive_zlib_version()), '\n')
+  cat("lzma", as.character(libarchive_liblzma_version()), '\n')
+  cat("bzlib", as.character(libarchive_bzlib_version()), '\n')
+  cat("zsstd", as.character(libarchive_libzstd_version()), '\n')
 }
