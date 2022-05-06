@@ -1,7 +1,7 @@
-ed9594c0b6029fa63900af1d86c1274f *DESCRIPTION
+979bb2279fa6ce1d9bbf783a074fc573 *DESCRIPTION
 ddb26ccffe7d5320551d7b4f77424bf8 *LICENSE
 2e14e20870d345785b5f651f039bf885 *NAMESPACE
-6ca404a932d8475aa071fa18119fb79b *NEWS.md
+6d415820762e87c00df7b184e27c95f1 *NEWS.md
 58ab7e7f71c7f4224deb2434adae0fb8 *R/archive.R
 1995d80d4fe88eba897150dd41aa7c91 *R/archive_extract.R
 7cf99717dd2bd9508f682eaaaaa7f6f2 *R/archive_read.R
@@ -14,10 +14,10 @@ d59780112a00d4df675ff3ba1e4bcac4 *R/cpp11.R
 6f0aee51fd4ed79c2607847fc81b0951 *R/utils.R
 49e0e0049b7136a040a696dd6f3a2ff2 *R/zzz.R
 360d5fb122347b28088405931e13b81a *README.md
-509f13e446ec0c0dd89d148d0252e8f4 *build/archive.pdf
+9228c5a6ab49aa0029b42125133b4aa1 *build/archive.pdf
 ba3caf48933f8c648233c7cf67566f2f *cleanup
 0a3052876800de02b0c6124aaa68ebb8 *configure
-e11ee6392f907177cf0f004c5b39760f *configure.win
+d41d8cd98f00b204e9800998ecf8427e *configure.win
 6b4ddf54f886c70cbec4fbc8dce5ff71 *inst/extdata/data.zip
 d41d8cd98f00b204e9800998ecf8427e *inst/lib/README.md
 491ec151f05527339686678ce7beb977 *man/archive.Rd
@@ -27,14 +27,14 @@ eef2d72c5484b6abe581af7c45ee5ae7 *man/archive_read.Rd
 bb38b2e9fa894f24f1769e79b2d68258 *man/archive_write_files.Rd
 cd58003a7095d4f1d2435e32602443ff *man/file_connections.Rd
 a8006feecdd19048dcdcb1b12f908218 *src/Makevars.in
-2cec33791efd347cbcb051402d7cf9c4 *src/Makevars.ucrt
-9a166ab722d8042ae342d1b116b2e1d2 *src/Makevars.win
+68543429598f48316e6044d6715c3a45 *src/Makevars.ucrt
+9ea3ad71e19484ba7480f371dbb1d38a *src/Makevars.win
 b0fce9df9f87f58ee6d375b98e761576 *src/archive.cpp
 ea6a14dba54e952101f11dea5a8387af *src/archive_extract.cpp
 6a750f61b0e15d597046f3a92f85cf3f *src/archive_read.cpp
 2b10929f506af704ee5956e5234afd88 *src/archive_write.cpp
 bf08e6693008e0b9839def49ddbee98b *src/archive_write_direct.cpp
-d80af94e87952bf4d183291aa7382f3f *src/archive_write_files.cpp
+ad32409199c84dd77bbe24e503cbcdc8 *src/archive_write_files.cpp
 f5b91f785c18470d9989c6eda653f8d5 *src/connection/connection.c
 59067fd9695ae7e1ae0e91c11a144f6c *src/connection/connection.h
 562918343b534c3afe02cc9e2f802f6c *src/cpp11.cpp
@@ -53,4 +53,4 @@ c094c47d3ff8a9fcb9ab9910fa221fc4 *tests/testthat/test-file_read.R
 29564113268f9e9b6be60c0c2a2a5dec *tests/testthat/test-file_write.R
 805e171e44db1ca419ae5a97ee51f380 *tests/version.R
 ef769514e1be82405434bac8d4ace544 *tests/version.Rout.save
-48a96c88f5f794f66690c8512eb274e2 *tools/winlibs.R
+1b9c1a3aabd0cf46c520df5dd0a147d8 *tools/winlibs.R
