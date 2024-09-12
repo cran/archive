@@ -1,3 +1,7 @@
+# archive 1.1.9
+
+* No changes.
+
 # archive 1.1.8
 
 * `archive_extract()` now stop reading the input file once the desired
