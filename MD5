@@ -1,7 +1,7 @@
-afbe1a25c390daf5117cb8ce70a84cdf *DESCRIPTION
+240d551cb6cc2b23d2113aebb6c4bf18 *DESCRIPTION
 ddb26ccffe7d5320551d7b4f77424bf8 *LICENSE
 2e14e20870d345785b5f651f039bf885 *NAMESPACE
-f5366b81e56c7b1ef5ad4cf522edadb1 *NEWS.md
+f22409d87673d1fbeae85094aa4a1dc5 *NEWS.md
 58ab7e7f71c7f4224deb2434adae0fb8 *R/archive.R
 1995d80d4fe88eba897150dd41aa7c91 *R/archive_extract.R
 7cf99717dd2bd9508f682eaaaaa7f6f2 *R/archive_read.R
@@ -27,7 +27,7 @@ b3ba3299b028d4c6f102a827c834ab05 *man/archive_read.Rd
 5959064fc8a842427bf15b4465f19c9f *man/file_connections.Rd
 da6aa5f55236096bca2ae85735465647 *man/macros/eval.Rd
 834cbccc103466d8c8d06bb253902bbd *src/Makevars.in
-8a34353209e3850fb5bb5d96892ab48f *src/Makevars.ucrt
+2f989a7995f0395910216577d1a43244 *src/Makevars.ucrt
 90eab3683faaa79dd04ec5e225f73266 *src/Makevars.win
 b0fce9df9f87f58ee6d375b98e761576 *src/archive.cpp
 807a3c9fc29343d578a9809edf8e1b10 *src/archive_extract.cpp
@@ -50,7 +50,7 @@ bef8503a3c643f41562a36a7f5d22d2e *src/cpp11/include/cpp11/environment.hpp
 a3b8a4058b5604620c83ef77719f0f54 *src/cpp11/include/cpp11/external_pointer.hpp
 ba3e102ca2302aa8d38d0b59373912fb *src/cpp11/include/cpp11/function.hpp
 13eb3adc823c55ba15b2e1ddb05ee147 *src/cpp11/include/cpp11/integers.hpp
-f0caa3f430211942a59d53ff97279b16 *src/cpp11/include/cpp11/list.hpp
+92937ca1344be98303c4491d7e4eef76 *src/cpp11/include/cpp11/list.hpp
 41d357aa6837f8d73acc95a20f25bf7f *src/cpp11/include/cpp11/list_of.hpp
 1670db444994e630b100dd319980b8f4 *src/cpp11/include/cpp11/logicals.hpp
 fd34e653ada0c39247f190248d0e44ee *src/cpp11/include/cpp11/matrix.hpp
@@ -58,7 +58,7 @@ fd34e653ada0c39247f190248d0e44ee *src/cpp11/include/cpp11/matrix.hpp
 045269f00c4e048f4e0ad31fd54357f4 *src/cpp11/include/cpp11/protect.hpp
 787a71bd7af834036c6cef76ec723e6c *src/cpp11/include/cpp11/r_bool.hpp
 208e3ef4e75dc0d4afb012ffc38c9a25 *src/cpp11/include/cpp11/r_string.hpp
-828737cfd551294274ba94b902f7aef2 *src/cpp11/include/cpp11/r_vector.hpp
+4268d08e98ec068b2e3a789bc85b8c36 *src/cpp11/include/cpp11/r_vector.hpp
 564746dd95efa01d6d7a3776fe3b0ae4 *src/cpp11/include/cpp11/raws.hpp
 6a9a0ecda46f3238daea4450405266d0 *src/cpp11/include/cpp11/sexp.hpp
 23fd80619ab785acf699aeb4afcbaaf3 *src/cpp11/include/cpp11/strings.hpp
