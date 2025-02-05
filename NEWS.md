@@ -1,3 +1,7 @@
+# archive 1.1.11
+
+* No changes.
+
 # archive 1.1.10
 
 * No changes.

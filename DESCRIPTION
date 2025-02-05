@@ -1,6 +1,6 @@
 Package: archive
 Title: Multi-Format Archive and Compression Support
-Version: 1.1.10
+Version: 1.1.11
 Authors@R: c(
     person("Jim", "Hester", role = "aut",
            comment = c(ORCID = "0000-0002-2739-7082")),
@@ -23,16 +23,16 @@ Suggests: covr, testthat
 LinkingTo: cli
 ByteCompile: true
 Encoding: UTF-8
-RoxygenNote: 7.3.1
+RoxygenNote: 7.2.1.9000
 SystemRequirements: libarchive: libarchive-dev (deb), libarchive-devel
         (rpm), libarchive (homebrew), libarchive_dev (csw)
 Biarch: true
 NeedsCompilation: yes
-Packaged: 2024-11-08 11:02:45 UTC; gaborcsardi
+Packaged: 2025-02-05 10:40:15 UTC; gaborcsardi
 Author: Jim Hester [aut] (<https://orcid.org/0000-0002-2739-7082>),
   Gábor Csárdi [aut, cre],
   Ondrej Holy [cph] (archive_write_add_filter implementation),
   RStudio [cph, fnd]
 Maintainer: Gábor Csárdi <csardi.gabor@gmail.com>
 Repository: CRAN
-Date/Publication: 2024-11-08 11:50:09 UTC
+Date/Publication: 2025-02-05 11:40:05 UTC
