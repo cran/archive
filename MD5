@@ -1,7 +1,7 @@
-388adc21a0016149b9756e5333269edd *DESCRIPTION
+9a3265b598c301a0d23680f0f4e63b53 *DESCRIPTION
 ddb26ccffe7d5320551d7b4f77424bf8 *LICENSE
 2e14e20870d345785b5f651f039bf885 *NAMESPACE
-2c2e6697552cd058e7aea8d8036aa18b *NEWS.md
+f502b97ae6002b55e735351b87278e03 *NEWS.md
 788ce374f571b7bb0a6b94577fa1e19c *R/archive.R
 06b35a4c8f7ff13cebb3473a87b72b51 *R/archive_extract.R
 dbca82386ae17bf05bce24fc0ce9c571 *R/archive_read.R
@@ -14,8 +14,8 @@ b9d609a86efb32637b419a49356a13bf *R/file_write.R
 6f0aee51fd4ed79c2607847fc81b0951 *R/utils.R
 49e0e0049b7136a040a696dd6f3a2ff2 *R/zzz.R
 16cfebb93aa9ba6d7044ca2b69dba5ba *README.md
-6003a59704bb13b519f1bc311c864386 *cleanup
-1221c21974df18a26817ce9ac76e0725 *configure
+4856b76d2245444ec5b4bb53e10f762c *cleanup
+742d8e2c5cf0c60a6196129e11cf35de *configure
 d41d8cd98f00b204e9800998ecf8427e *configure.win
 6b4ddf54f886c70cbec4fbc8dce5ff71 *inst/extdata/data.zip
 d41d8cd98f00b204e9800998ecf8427e *inst/lib/README.md
@@ -26,7 +26,7 @@ ec32a4ceb42e0899f5b72aae156ea747 *man/archive_read.Rd
 7c646235d5a0be9d0e3f33d6868d8ae4 *man/archive_write_files.Rd
 ab5494d507f275a7e121f7ea4f22255a *man/file_connections.Rd
 da6aa5f55236096bca2ae85735465647 *man/macros/eval.Rd
-834cbccc103466d8c8d06bb253902bbd *src/Makevars.in
+c0930731d5fda0f07c07a0454f6a0fb2 *src/Makevars.in
 2f989a7995f0395910216577d1a43244 *src/Makevars.ucrt
 90eab3683faaa79dd04ec5e225f73266 *src/Makevars.win
 c8bda068f38f0272a3276f082b12908d *src/archive.cpp
@@ -39,7 +39,7 @@ f5b91f785c18470d9989c6eda653f8d5 *src/connection/connection.c
 59067fd9695ae7e1ae0e91c11a144f6c *src/connection/connection.h
 ad530e4b3e13cb2a997c4f5ed6c2187d *src/cpp11.cpp
 5285ae2dfd6c4f8cc939a40418ddb470 *src/cpp11/include/cpp11.hpp
-c092be749642224be8d43ce4c249df3d *src/cpp11/include/cpp11/R.hpp
+24e53a33eb4fcf6f8dbfcf3d319b95b9 *src/cpp11/include/cpp11/R.hpp
 ba408ddc45d62c21c7d763fdc8373335 *src/cpp11/include/cpp11/altrep.hpp
 a6b84992041f280d74b4328f5c9fb1f9 *src/cpp11/include/cpp11/as.hpp
 b70ab7b50907184aae72442e2466daba *src/cpp11/include/cpp11/attribute_proxy.hpp
@@ -54,7 +54,7 @@ ba3e102ca2302aa8d38d0b59373912fb *src/cpp11/include/cpp11/function.hpp
 41d357aa6837f8d73acc95a20f25bf7f *src/cpp11/include/cpp11/list_of.hpp
 1670db444994e630b100dd319980b8f4 *src/cpp11/include/cpp11/logicals.hpp
 fd34e653ada0c39247f190248d0e44ee *src/cpp11/include/cpp11/matrix.hpp
-4194cd645dca505de4ede46e90e2a457 *src/cpp11/include/cpp11/named_arg.hpp
+899a987ae25103ad418b465ce1b88a04 *src/cpp11/include/cpp11/named_arg.hpp
 045269f00c4e048f4e0ad31fd54357f4 *src/cpp11/include/cpp11/protect.hpp
 787a71bd7af834036c6cef76ec723e6c *src/cpp11/include/cpp11/r_bool.hpp
 208e3ef4e75dc0d4afb012ffc38c9a25 *src/cpp11/include/cpp11/r_string.hpp
